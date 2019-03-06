@@ -9,7 +9,7 @@ R/3.5.0
 library(rmarkdown)
 rmarkdown::render("scripts/lung_metacell_model.Rmd")
 
-To run ligand receptor analysis run:
+To run ligand receptor analysis run:  
 rmarkdown::render("scripts/lung_lig_rec.Rmd")
 
 The following R libraries should be installed:
@@ -43,9 +43,9 @@ BiocManager,
 gridExtra,
 reshape2,
 scales,
-metacell
+metacell  
 
-###Installation
+### Installation
 
 ```r
 install.packages('BiocManager') 
