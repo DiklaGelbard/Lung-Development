@@ -52,4 +52,4 @@ install.packages('BiocManager')
 BiocManager::install('metacell',  site_repository = 'tanaylab.bitbucket.io/repo', update = FALSE)
 ```
 
-Please send questions to [Amir Giladi](mailto:amir.goldberg@weizmann.ac.il)
+Please send questions to [Dikla Gelbard Solodkin](mailto:dikla.gelbard@gmail.com) or [Amir Giladi](mailto:aygoldberg@gmail.com)
