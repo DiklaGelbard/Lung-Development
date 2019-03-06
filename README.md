@@ -7,7 +7,10 @@ In order to run the Rmd file, downloaded processed data from the GSE119228 needs
 To start analysis, run from the root directory:
 R/3.5.0
 library(rmarkdown)
-rmarkdown::render("scripts/lung_guide.html",knit_root_dir="../")
+rmarkdown::render("scripts/lung_metacell_model.Rmd")
+
+To run ligand receptor analysis run:
+rmarkdown::render("scripts/lung_lig_rec.Rmd")
 
 The following R libraries should be installed:
 data.table,
@@ -40,16 +43,13 @@ BiocManager,
 gridExtra,
 reshape2,
 scales,
-metacell,
-Slingshot (=3.8)
-
+metacell
 
 ###Installation
 
 ```r
 install.packages('BiocManager') 
 BiocManager::install('metacell',  site_repository = 'tanaylab.bitbucket.io/repo', update = FALSE)
-BiocManager::install("slingshot", version = "3.8")
 ```
 
 Please send questions to [Amir Giladi](mailto:amir.goldberg@weizmann.ac.il)
